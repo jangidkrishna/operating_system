@@ -28,6 +28,10 @@ int main(){
         cout << endl; 
     }
     
+    int no;
+    cout << "Enter the file name ";
+    cin >> no;
+    cout << "File name : " << files[no].name << "\nStart Block : " << files[no].start << "\nLength : " << files[no].size ;   
     return 0;
 
 }
